@@ -1,21 +1,8 @@
-# print ("Papamaps")
-# print ("o----")
-# print (' !!!!') 
-# print ('*' * 10) # an expression, meaning when we run the code it will express a value.
+price = 1000000
+good_credit = False
 
-# price = 10
-# price = 20 #integer, number without out a decimal
-# print (price)
-
-# name = 'John Smith'
-# age = 20
-# new_patient = True
-
-# print (name)
-# print (age)
-# print (new_patient)
-
-name = input('Whats your name? ')
-color = input('Whats your favorite color ')
-
-print (name + ' likes ' + color)
+if good_credit:
+    down_payment = 0.1 * price
+else:
+    down_payment = 0.2 * price
+print(f'Down payment: ${down_payment}')
